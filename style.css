@@ -197,22 +197,26 @@ body {
     border: none;
 }
 
-/* choose-us section */
+/* choose-us section & how it works section */
 
-.choose-us {
+.choose-us, .how-it-works {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #2A5BD7;
     text-align: center;
     padding-block: 2.4rem 3.1rem;
 }
 
-.choose-us > .title {
+.how-it-works {
+    background-color: var(--white);
+}
+
+.choose-us > .title, .how-it-works > .title {
     color: var(--primary-color);
     font-size: 2.4rem;
     line-height: 2.8rem;
     letter-spacing: .5px;
 }
 
-.choose-us > p {
+.choose-us > p, .how-it-works > p {
     color: var(--secondary-color);
     font-size: 1.2rem;
     line-height: 1.64rem;
@@ -220,15 +224,26 @@ body {
     margin: .8rem auto 0;
 }
 
-.choose-us > .content {
+.how-it-works > p {
+    max-width: 60%;
+}
+
+.choose-us > .content, .how-it-works > .content {
     margin-bottom: 3.2rem;
 }
 
-.choose-us > .content > .inner-box {
+.how-it-works > .content {
+    text-align: left;
+}
+
+.choose-us > .content > .inner-box, .how-it-works > .content > .inner-box {
     width: 80vw;
     margin: 1.6rem auto 0;
     padding: 2.2rem 0;
     border-radius: .8rem;
+}
+.how-it-works > .content > .inner-box  {
+    padding: 1.6rem 2.2rem;
 }
 
 
@@ -244,7 +259,8 @@ body {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), #2A5BD7;}
 
 
-.choose-us > .content > .inner-box:first-child {
+.choose-us > .content > .inner-box:first-child, 
+.how-it-works > .content > .inner-box:first-child {
     margin-top: 3.2rem;
 }
 
@@ -254,19 +270,41 @@ body {
     margin-bottom: 1.7rem;
 }
 
-.choose-us > .content > .inner-box > h3 {
+.choose-us > .content > .inner-box > h3,
+.how-it-works > .content > .inner-box > h3 {
     color: var(--secondary-color);
     font-size: 1.4rem;
     line-height: 1.91rem;
 }
 
-.choose-us > .content > .inner-box > p {
+.how-it-works > .content > .inner-box > h3 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.choose-us > .content > .inner-box > p, .how-it-works > .content > .inner-box > p {
     color: var(--secondary-color);
     font-size: 1.2rem;
     line-height: 1.5;
     max-width: 80%;
     margin: .8rem auto 0;
 }
+
+.how-it-works > .content > .inner-box > p {
+    max-width: unset;
+    font-size: 1.4rem;
+    margin: .8rem 0 0;
+}
+
+.how-it-works > .content > .inner-box.stage-1 {
+    background-color: rgba(0, 0, 0, 0.1);
+} 
+
+.how-it-works > .content > .inner-box.stage-2 {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), #FF0000;}
+
+.how-it-works > .content > .inner-box.stage-3 {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), #13B84B;}
 
 .custom-btn {
     background-color: var(--primary-color);
