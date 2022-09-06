@@ -44,6 +44,7 @@ body {
     padding-block: 4rem 2rem;
 }
 
+
 .hamburger-menu > .line, 
 .hamburger-menu > .line::before, 
 .hamburger-menu > .line::after {
@@ -56,6 +57,7 @@ body {
     left: 0;
     transition: all 300ms ease-in-out;
     z-index: 99;
+    cursor: pointer;
 }
 
 .hamburger-menu > .line::before, 
@@ -80,6 +82,7 @@ body {
     right: 0;
     transform: translateX(100%);
     transition: transform 300ms cubic-bezier(.5, 0, .5, 1);
+    z-index: 90;
 }
 
 .nav-menu {
