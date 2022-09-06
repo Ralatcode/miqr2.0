@@ -197,3 +197,84 @@ body {
     border: none;
 }
 
+/* choose-us section */
+
+.choose-us {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), #2A5BD7;
+    text-align: center;
+    padding-block: 2.4rem 3.1rem;
+}
+
+.choose-us > .title {
+    color: var(--primary-color);
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    letter-spacing: .5px;
+}
+
+.choose-us > p {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    line-height: 1.64rem;
+    max-width: 40%;
+    margin: .8rem auto 0;
+}
+
+.choose-us > .content {
+    margin-bottom: 3.2rem;
+}
+
+.choose-us > .content > .inner-box {
+    width: 80vw;
+    margin: 1.6rem auto 0;
+    padding: 2.2rem 0;
+    border-radius: .8rem;
+}
+
+
+.choose-us > .content > .inner-box.customization {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), #F9C051;
+}
+
+.choose-us > .content > .inner-box.one-time-setup {
+    background-color: #D0F1DB;
+}
+
+.choose-us > .content > .inner-box.printable {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), #2A5BD7;}
+
+
+.choose-us > .content > .inner-box:first-child {
+    margin-top: 3.2rem;
+}
+
+.choose-us > .content > .inner-box > img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.7rem;
+}
+
+.choose-us > .content > .inner-box > h3 {
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+    line-height: 1.91rem;
+}
+
+.choose-us > .content > .inner-box > p {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 80%;
+    margin: .8rem auto 0;
+}
+
+.custom-btn {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 1.2rem 4.45rem;
+    border-radius: .8rem;
+    border: none;
+}
