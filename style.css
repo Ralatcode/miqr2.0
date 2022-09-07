@@ -399,6 +399,7 @@ body {
     padding: 1.3rem .75rem;
     margin-bottom: 2rem;
     border-radius: .56rem;
+    border: none;
     text-align: center;
 }
 
@@ -647,5 +648,70 @@ body {
         position: relative;
         top: 0;
         left: 40%;
+    }
+
+    .qr-concept > .content > .concept {
+        width: 60vw;
+        margin: 5.4rem auto 4.8rem;
+    }
+
+    .qr-concept > .content > .concept > h4 {
+        font-size: 3.2rem;
+    }
+
+    .newsletter {
+        width: 70vw;
+        margin: 12rem auto;
+        max-width: 1200px;
+    }
+
+    .newsletter > .content-box > h3 {
+        font-size: 3.2rem;
+        margin-bottom: 3.2rem;   
+    }
+
+    .newsletter > .content-box > .newsletter-input {
+        font-size: 1.6rem;
+    }
+
+    .newsletter > .content-box > h4 {
+        max-width: unset;
+        margin-top: 4rem;
+    }
+
+    .footer > .container {
+        width: 80vw;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 6.7rem;
+    }
+
+    .footer > .container > .miqr-details > p {
+        width: 80%;
+        max-width: 440px;
+        font-size: 1.4rem;
+    }
+
+    .footer > .container > .footer-link-box {
+        width: 50%;
+        margin: 0;
+        justify-content: space-evenly;
+    }
+
+    .footer-link-box > .useful-links h3, .footer-link-box > .support h3 {
+        font-size: 2.4rem;
+    }
+
+    .footer-link-box ul {
+        text-align: center;
+    }
+
+    .footer-link-box .footer-links {
+        font-size: 1.4rem;
+    }
+
+    .footer-link-box .footer-links:first-child {
+        margin-top: 2.6rem;
     }
 }
