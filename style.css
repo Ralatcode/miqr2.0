@@ -45,7 +45,7 @@ body {
     padding-block: 4rem 2rem;
 }
 
-
+/* using before and after pseudo elements to create hamburger menu */
 .hamburger-menu > .line, 
 .hamburger-menu > .line::before, 
 .hamburger-menu > .line::after {
@@ -427,6 +427,119 @@ body {
     margin: 2.1rem auto 0;
 }
 
+/* sign up page */
+
+.sign-up-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.sign-up-main > .content {
+    text-align: center;
+    width: 80vw;
+}
+
+.sign-up-main .form-logo {
+    margin-bottom: 7.2rem;
+}
+
+.sign-up-main .form-logo > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sign-up-main > .content > h3 {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    color: var(--primary-color);
+    margin-bottom: 1.6rem;
+}
+
+.sign-up-main > .content .google-signup,
+.sign-up-main form > .submit-btn {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 1.4rem;
+    width: 80%;
+    line-height: 1.4;
+    font-weight: 700;
+    font-family: inherit;
+    padding: 1.2rem 2.4rem;
+    border: none;
+    border-radius: .4rem;
+    margin-bottom: .9rem;
+    cursor: pointer;
+}
+
+.sign-up-main > .content .privacy-disclaimer {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+    max-width: 354px;
+    color: #808080;
+    margin-bottom: 1rem;
+}
+
+.signin-divider p, .signup-divider p {
+    text-align: center;
+    width: 80%;
+    border-bottom: 2px solid #808080;
+    line-height: 0.1em;
+    margin: 1.3rem auto 2.5rem;
+}
+
+.signin-divider p span, .signup-divider p span {
+    background: #fff;
+    padding: 0 10px;
+    font-size: 1.5rem;
+    color: #808080;
+}
+
+.sign-up-main form {
+    max-width: 273px;
+    margin-inline: auto;
+}
+
+.sign-up-main form > .form-group {
+    text-align: left;
+}
+
+.sign-up-main form > .form-group {
+    margin-bottom: 1.9rem;
+}
+
+
+.sign-up-main form > .form-group label {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+
+.sign-up-main form > .form-group input {
+    display: block;
+    width: 100%;
+    padding: 1.85rem 1.6rem;
+    font: inherit;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    border: 1px solid var(--primary-color);
+    border-radius: .4rem;
+    margin-top: .5rem;
+}
+
+.sign-up-main > .content .login-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    margin-top: .8rem;
+}
+
+/* sign-up page ends */
+
+/* footer start */
+
 .footer {
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #2A5BD7;
     padding: 3.3rem 1rem 5rem;
@@ -498,6 +611,8 @@ body {
     letter-spacing: 1px;
     color: var(--secondary-color);
 }
+
+/* footer end */
 
 /* end for mobile */
 
