@@ -794,6 +794,23 @@ body {
         margin-top: 4rem;
     }
 
+    .sign-up-main > .content {
+        max-width: 370px;
+    }
+
+    .sign-up-main .form-logo {
+        margin-bottom: 4.4rem;
+    }
+
+    .sign-up-main > .content > h3 {
+        font-size: 4rem;
+    }
+
+    .sign-up-main > .content .google-signup, .sign-up-main form > .submit-btn {
+        padding: 2.4rem 3rem;
+        width: 100%;
+    }
+
     .footer > .container {
         width: 80vw;
         text-align: left;
