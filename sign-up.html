@@ -8,7 +8,7 @@
     <script src="./script.js" defer></script>
     <title>Sign Up</title>
 </head>
-<body>
+<body class="sign-up-body">
     <header class="header"> 
         <div class="header-box">
             <div class="logo-box">
@@ -37,7 +37,7 @@
             <nav class="nav">
                 <ul class="nav-menu">
                     <li class="nav-links">
-                        <a href="index.html">Home</a>
+                        <a href="./index.html">Home</a>
                     </li>
                     <li class="nav-links">
                         <a href="#">About</a>
@@ -59,6 +59,31 @@
 
         </div>
     </header>
+    <main class="sign-up-main">
+        <div class="content">
+            <div class="form-logo">
+                <img src="./images/Logo.svg" alt="Website Logo">
+            </div>
+            <h3>Create Account</h3>
+            <button class="google-signup">Sign up with Google</button>
+            <p class="privacy-disclaimer">By creating this account you agree to our privacy Policy</p>
+            <div class="signup-divider">
+                <p><span>or</span></p>
+            </div>
+            <form action="">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email address" required>
+                </div>
 
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                <input type="button" value="Sign Up" class="submit-btn">
+            </form>
+            <a href="#" class="login-link">Already have an Account? Login here</a>
+        </div>
+    </main>
 </body>
 </html>
