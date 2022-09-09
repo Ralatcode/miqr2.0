@@ -806,8 +806,29 @@ body {
         font-size: 4rem;
     }
 
+    
     .sign-up-main > .content .google-signup, .sign-up-main form > .submit-btn {
         padding: 2.4rem 3rem;
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+    
+    .sign-up-main > .content .privacy-disclaimer {
+        font-size: 1.6rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .signin-divider p, .signup-divider p {
+        width: 100%;
+        line-height: 0;
+    }
+
+    .signin-divider p span, .signup-divider p span {
+        font-size: 2rem;
+    }
+
+    .sign-up-main form {
+        max-width: unset;
         width: 100%;
     }
 
