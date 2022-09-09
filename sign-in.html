@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Login</title>
+</head>
+<body class="sign-up-body">
+    <header class="header"> 
+        <div class="header-box">
+            <div class="logo-box">
+                <svg width="68" height="24" viewBox="0 0 68 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="logo">
+                    <g clip-path="url(#clip0_215_221)">
+                    <rect width="24" height="24" rx="1.33333" fill="#2A5BD7"/>
+                    <rect x="6" y="6" width="12" height="12" rx="1.33333" fill="white"/>
+                    <rect x="9" y="9" width="6" height="6" rx="1.33333" fill="#2A5BD7"/>
+                    <rect x="10.6665" y="10.6665" width="2.66667" height="2.66667" rx="0.333333" fill="white"/>
+                    <rect width="2.66667" height="2.66667" transform="translate(21.3335 21.3335)" fill="white"/>
+                    </g>
+                    <path d="M30.12 18V6.48H31.2L35.728 16.168L40.232 6.48H41.328V17.992H40.208V9.104L36.104 18H35.344L31.248 9.104V18H30.12ZM43.7331 7.72V6.4H44.9091V7.72H43.7331ZM43.7331 18V9.36H44.9091V18H43.7331ZM56.3555 18.232L53.2835 15.176L54.0835 14.376L57.1395 17.432L56.3555 18.232ZM51.9715 18.24C50.8248 18.24 49.8568 17.9867 49.0675 17.48C48.2782 16.968 47.6808 16.2613 47.2755 15.36C46.8702 14.4587 46.6675 13.4187 46.6675 12.24C46.6675 11.0613 46.8702 10.0213 47.2755 9.12C47.6808 8.21867 48.2782 7.51467 49.0675 7.008C49.8568 6.496 50.8248 6.24 51.9715 6.24C53.1235 6.24 54.0915 6.496 54.8755 7.008C55.6648 7.51467 56.2622 8.21867 56.6675 9.12C57.0782 10.0213 57.2835 11.0613 57.2835 12.24C57.2835 13.4187 57.0782 14.4587 56.6675 15.36C56.2622 16.2613 55.6648 16.968 54.8755 17.48C54.0915 17.9867 53.1235 18.24 51.9715 18.24ZM51.9715 17.112C52.8728 17.112 53.6248 16.9067 54.2275 16.496C54.8302 16.0853 55.2808 15.5147 55.5795 14.784C55.8835 14.048 56.0355 13.2 56.0355 12.24C56.0355 11.28 55.8835 10.4347 55.5795 9.704C55.2808 8.97333 54.8302 8.40267 54.2275 7.992C53.6248 7.58133 52.8728 7.37333 51.9715 7.368C51.0702 7.368 50.3208 7.57333 49.7235 7.984C49.1262 8.39467 48.6755 8.968 48.3715 9.704C48.0728 10.4347 47.9208 11.28 47.9155 12.24C47.9102 13.2 48.0568 14.0453 48.3555 14.776C48.6595 15.5013 49.1128 16.072 49.7155 16.488C50.3182 16.8987 51.0702 17.1067 51.9715 17.112ZM58.8856 18V6.48H63.3336C63.4456 6.48 63.571 6.48533 63.7096 6.496C63.8536 6.50133 63.9976 6.51733 64.1416 6.544C64.7443 6.63467 65.2536 6.84533 65.6696 7.176C66.091 7.50133 66.4083 7.912 66.6216 8.408C66.8403 8.904 66.9496 9.45333 66.9496 10.056C66.9496 10.9253 66.7203 11.68 66.2616 12.32C65.803 12.96 65.147 13.3627 64.2936 13.528L63.8856 13.624H60.0616V18H58.8856ZM65.8616 18L63.5896 13.312L64.7176 12.88L67.2136 18H65.8616ZM60.0616 12.504H63.3016C63.3976 12.504 63.5096 12.4987 63.6376 12.488C63.7656 12.4773 63.891 12.4587 64.0136 12.432C64.4083 12.3467 64.731 12.184 64.9816 11.944C65.2376 11.704 65.427 11.4187 65.5496 11.088C65.6776 10.7573 65.7416 10.4133 65.7416 10.056C65.7416 9.69867 65.6776 9.35467 65.5496 9.024C65.427 8.688 65.2376 8.4 64.9816 8.16C64.731 7.92 64.4083 7.75733 64.0136 7.672C63.891 7.64533 63.7656 7.62933 63.6376 7.624C63.5096 7.61333 63.3976 7.608 63.3016 7.608H60.0616V12.504Z" fill="#2A5BD7"/>
+                    <defs>
+                    <clipPath id="clip0_215_221">
+                    <rect width="24" height="24" rx="1.33333" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+            </div>
+
+            <div class="hamburger-menu">
+                <span class="sr-only">Menu</span>
+                <span class="line"></span>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav-menu">
+                    <li class="nav-links">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li class="nav-links active">
+                        <a href="#">Login</a>
+                    </li>
+                    <a href="sign-up.html" class="nav-btn">
+                        <button>Register</button>
+                    </a>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <main class="sign-up-main">
+        <div class="content">
+            <div class="form-logo">
+                <img src="./images/Logo.svg" alt="Website Logo">
+            </div>
+            <h3>Welcome Back <img src="./images/Emoji.svg" alt="Waving Hand emoji"> </h3>
+            <button class="google-signup">Sign in with Google</button>
+            <div class="signup-divider">
+                <p><span>or</span></p>
+            </div>
+            <form action="">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Email address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                <input type="button" value="Sign Up" class="submit-btn">
+            </form>
+            <a href="#" class="login-link">Forgot Password?</a>
+            <a href="sign-up.html" class="login-link">Don’t have an Account? Create here</a>
+        </div>
+    </main>
+</body>
+</html>
