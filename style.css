@@ -885,6 +885,7 @@ body {
         font-size: 1.6rem;
     }
 
+    
     .footer > .container {
         width: 80vw;
         text-align: left;
@@ -892,11 +893,30 @@ body {
         justify-content: space-between;
         margin-bottom: 6.7rem;
     }
-
+    
     .footer > .container > .miqr-details > p {
         width: 80%;
         max-width: 440px;
         font-size: 1.4rem;
+    }
+
+    .error-main > .content {
+        max-width: 428px;
+    }
+    
+    .sign-up-main > .content > .page-not-found {
+        font-size: 3.6rem;
+        margin-top: 7.4rem;
+    }
+
+    .sign-up-main > .content > .error-p {
+        font-size: 1.6rem;
+        max-width: unset;
+        margin-bottom: 7.2rem;
+    }
+
+    .sign-up-main > .content > .button-box button {
+        padding: 2.4rem 10.4rem;
     }
 
     .footer > .container > .footer-link-box {
