@@ -1,6 +1,10 @@
 /* import manrope google font */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
+
+/* import blinker google font */
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
+
 :root {
     --primary-color: #2A5BD7;
     --white: #FFFFFF;
@@ -21,6 +25,7 @@ body {
     font-size: 10px;
     font-family: 'Manrope', sans-serif;
     background-color: var(--white);
+    max-width: 100vw;
 }
 
 .sr-only {
@@ -167,7 +172,7 @@ body {
 
 .hero-section .content {
     width: 85%;
-    margin-inline: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -184,6 +189,7 @@ body {
 }
 
 .hero-section .content > h2 {
+    font-family: 'Blinker', sans-serif;
     color: var(--white);
     font-size: 3.2rem;
     line-height: 3.8rem;
@@ -226,6 +232,7 @@ body {
 }
 
 .choose-us > .title, .how-it-works > .info > .title, .qr-concept > .title {
+    font-family: 'Blinker', sans-serif;
     color: var(--primary-color);
     font-size: 2.4rem;
     line-height: 2.8rem;
@@ -298,6 +305,7 @@ body {
 }
 
 .how-it-works > .content > .inner-box > h3 {
+    font-family: 'Blinker', sans-serif;
     font-size: 2rem;
     line-height: 2.4rem;
 }
@@ -356,6 +364,7 @@ body {
 }
 
 .qr-concept > .content > .concept > h4 {
+    font-family: 'Blinker', sans-serif;
     font-size: 1.6rem;
     line-height: 1.2;
     letter-spacing: .5px;
@@ -384,6 +393,7 @@ body {
 }
 
 .newsletter > .content-box > h3 {
+    font-family: 'Blinker', sans-serif;
     color: var(--white);
     font-size: 2.4rem;
     line-height: 1.3;
@@ -451,6 +461,7 @@ body {
 }
 
 .sign-up-main > .content > h3 {
+    font-family: 'Blinker', sans-serif;
     font-size: 2.4rem;
     line-height: 1.5;
     color: var(--primary-color);
@@ -554,6 +565,7 @@ body {
 .sign-up-main > .content > .page-not-found {
     color: var(--secondary-color);
     text-transform: capitalize;
+    font-family: 'Blinker', sans-serif;
     font-size: 2.4rem;
     line-height: 1.4;
     letter-spacing: .5px;
