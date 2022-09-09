@@ -86,8 +86,8 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    transform: translateX(100%);
-    transition: transform 300ms cubic-bezier(.5, 0, .5, 1);
+    transform: translateX(-100%);
+    transition: transform 300ms cubic-bezier(.91,.12,.46,.8);
     z-index: 90;
 }
 
@@ -202,7 +202,7 @@ body {
     font-size: 1.4rem;
     line-height: 1.9rem;
     max-width: 90%;
-    margin: .8rem auto 0;
+    margin-top: .8rem;
     text-align: left;
 }
 
@@ -713,7 +713,7 @@ body {
         font-size: 2rem;
         line-height: 1.35;
         letter-spacing: 0.05px;
-        margin-top: 1.8rem;
+        margin: 1.8rem auto 0;
         max-width: 459px;
     }
 
