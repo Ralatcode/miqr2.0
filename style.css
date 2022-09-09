@@ -433,7 +433,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
+    min-height: 80vh;
 }
 
 .sign-up-main > .content {
@@ -539,6 +539,45 @@ body {
 }
 
 /* sign-up page ends */
+
+/* 404 page */
+
+.error-main {
+    min-height: 70vh;
+}
+
+.sign-up-main > .content > .error-svg img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sign-up-main > .content > .page-not-found {
+    color: var(--secondary-color);
+    text-transform: capitalize;
+    font-size: 2.4rem;
+    line-height: 1.4;
+    letter-spacing: .5px;
+    margin-top: 3.5rem;
+}
+
+.sign-up-main > .content > .error-p {
+    color: #606060;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 247px;
+    margin: 1.6rem auto 3.5rem;
+}
+
+.sign-up-main > .content > .button-box button {
+    font: inherit;
+    color: var(--white);
+    background-color: var(--primary-color);
+    font-size: 1.6rem;
+    padding: 1.6rem 2.4rem;
+    border-radius: .4rem;
+    border: none;
+}
 
 /* footer start */
 
