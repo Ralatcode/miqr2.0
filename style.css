@@ -468,8 +468,7 @@ body {
     margin-bottom: 1.6rem;
 }
 
-.sign-up-main > .content .google-signup,
-.sign-up-main form > .submit-btn {
+.sign-up-main > .content .google-signup, .sign-up-main form > .submit-btn {
     background-color: var(--primary-color);
     color: var(--white);
     font-size: 1.4rem;
@@ -477,7 +476,7 @@ body {
     line-height: 1.4;
     font-weight: 700;
     font-family: inherit;
-    padding: 1.2rem 2.4rem;
+    padding: 12px 24px;
     border: none;
     border-radius: .4rem;
     margin-bottom: .9rem;
