@@ -518,6 +518,7 @@ body {
 }
 
 .sign-up-main form > .form-group input {
+    color: var(--secondary-color);
     display: block;
     width: 100%;
     padding: 1.85rem 1.6rem;
@@ -830,6 +831,18 @@ body {
     .sign-up-main form {
         max-width: unset;
         width: 100%;
+    }
+
+    .sign-up-main form > .form-group {
+        margin-bottom: 2.2rem;
+    }
+
+    .sign-up-main form > .form-group label {
+        font-size: 2rem;
+    }
+
+    .sign-up-main form > .form-group input {
+        font-size: 1.6rem;
     }
 
     .footer > .container {
