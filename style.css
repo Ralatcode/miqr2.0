@@ -531,6 +531,7 @@ body {
 }
 
 .sign-up-main > .content .login-link {
+    display: block;
     text-decoration: none;
     color: var(--primary-color);
     font-size: 1.4rem;
