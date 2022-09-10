@@ -548,9 +548,15 @@ body {
 .sign-up-main > .content .login-link {
     display: block;
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 1.4rem;
     margin-top: .8rem;
+}
+.sign-up-main > .content .login-link > a {
+    text-decoration: none;
+    font-family: 'Blinker', sans-serif;
+    color: var(--primary-color);
+    font-size: 2rem;
 }
 
 /* sign-up page ends */
