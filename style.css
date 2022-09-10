@@ -449,6 +449,8 @@ body {
 .sign-up-main > .content {
     text-align: center;
     width: 80vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .sign-up-main > .content > h3 {
@@ -472,6 +474,7 @@ body {
     border: none;
     border-radius: .4rem;
     margin-bottom: .9rem;
+    margin-inline: auto;
     cursor: pointer;
 }
 
@@ -500,9 +503,15 @@ body {
 }
 
 .sign-up-main form {
-    max-width: 273px;
-    margin-inline: auto;
+    order: 1;
 }
+
+.sign-up-main > .content .google-signup-box {
+    order: 2;
+    display: flex;
+    flex-direction: column-reverse;
+} 
+
 
 .sign-up-main form > .form-group {
     text-align: left;
@@ -530,6 +539,10 @@ body {
     border: 1px solid var(--primary-color);
     border-radius: .4rem;
     margin-top: .5rem;
+}
+
+.sign-up-main > .content .form-other-links {
+    order: 3;
 }
 
 .sign-up-main > .content .login-link {
@@ -842,6 +855,7 @@ body {
 
     .sign-up-main > .content {
         max-width: 370px;
+        display: block;
     }
 
     .sign-up-main > .content > h3 {
@@ -884,6 +898,10 @@ body {
 
     .sign-up-main form > .form-group input {
         font-size: 1.6rem;
+    }
+
+    .sign-up-main > .content .google-signup-box {
+        flex-direction: column;
     }
 
     
