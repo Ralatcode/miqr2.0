@@ -47,7 +47,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-block: 4rem 2rem;
+    padding-block: 2rem 2rem;
 }
 
 /* using before and after pseudo elements to create hamburger menu */
@@ -672,7 +672,7 @@ body {
 @media (min-width: 600px) {
 
     .header-box {
-        padding-block: 3.45rem;
+        padding-block: 2.4rem;
         position: relative;
         z-index: 10;
     }
@@ -840,6 +840,8 @@ body {
 
     .newsletter > .content-box > .newsletter-input {
         font-size: 1.6rem;
+        max-width: 440px;
+        margin-inline: auto;
     }
 
     .newsletter > .content-box > h4 {
@@ -939,10 +941,6 @@ body {
 
     .footer-link-box > .useful-links h3, .footer-link-box > .support h3 {
         font-size: 2.4rem;
-    }
-
-    .footer-link-box ul {
-        text-align: center;
     }
 
     .footer-link-box .footer-links {
