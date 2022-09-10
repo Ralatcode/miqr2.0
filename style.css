@@ -481,13 +481,12 @@ body {
 .sign-up-main > .content .privacy-disclaimer {
     font-size: 1.2rem;
     line-height: 1.5;
-    text-align: left;
     max-width: 354px;
     color: #808080;
     margin-bottom: 1rem;
 }
 
-.signin-divider p, .signup-divider p {
+.signup-divider p {
     text-align: center;
     width: 80%;
     border-bottom: 2px solid #808080;
@@ -495,7 +494,7 @@ body {
     margin: 1.3rem auto 2.5rem;
 }
 
-.signin-divider p span, .signup-divider p span {
+.signup-divider p span {
     background: #fff;
     padding: 0 10px;
     font-size: 1.5rem;
@@ -880,7 +879,7 @@ body {
         margin-bottom: 1.2rem;
     }
 
-    .signin-divider p, .signup-divider p {
+    .signup-divider p {
         width: 100%;
         line-height: 0;
     }
